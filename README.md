@@ -8,8 +8,10 @@ Your task is to implement function `getLoveTrianglesCount` which calculates how 
 
 For example:
 ```js
-                                  // 1  2  3  Spichonees
-  let count = getLoveTrianglesCount([2, 3, 1]);
+                                  // 0  1  2  3  4  5  6  7  8   Spichonees
+  let count = getLoveTrianglesCount([2, 3, 1, 5, 6, 4, 8, 9, 7 ]);
+
+
   console.log(count); // 1
   /**
     1st Spichonee loves 2nd Spichonee.
